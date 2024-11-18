@@ -6,7 +6,7 @@
   <packageImport xmi:type="uml:PackageImport" xmi:id="_9OY3UKWwEe-u1arxw7MlTg">
     <importedPackage xmi:type="uml:Package" href="pathmap://SysML16_LIBRARIES/SysML-Standard-Library.uml#SysML.package_packagedElement_Libraries"/>
   </packageImport>
-  <packagedElement xmi:type="uml:Package" xmi:id="_GdAREKWzEe-on7-SD3Zezw" name="DTS Domain Patterns ">
+  <packagedElement xmi:type="uml:Package" xmi:id="_GdAREKWzEe-on7-SD3Zezw" name="DTS Patterns ">
     <packagedElement xmi:type="uml:Package" xmi:id="_VBcK4KWzEe-on7-SD3Zezw" name="Business Patterns">
       <packagedElement xmi:type="uml:Dependency" xmi:id="_3ohToKWzEe-on7-SD3Zezw" client="_VBcK4KWzEe-on7-SD3Zezw" supplier="_xc9JQKWzEe-on7-SD3Zezw"/>
     </packagedElement>
