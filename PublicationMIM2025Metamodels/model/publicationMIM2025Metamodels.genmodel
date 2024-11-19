@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/PublicationMIM2025Metamodels/src-gen" creationIcons="false"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel"
+    modelDirectory="/PublicationMIM2025Metamodels/src-gen" creationIcons="false"
     editDirectory="/PublicationMIM2025Metamodels.edit/src-gen" editorDirectory="/PublicationMIM2025Metamodels.editor/src-gen"
     modelPluginID="PublicationMIM2025Metamodels" modelName="PublicationMIM2025Metamodels"
     rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container" codeFormatting="true"
@@ -9,5 +10,95 @@
   <foreignModel>publicationMIM2025Metamodels.ecore</foreignModel>
   <testsDirectory xsi:nil="true"/>
   <genPackages prefix="PublicationMIM2025Metamodels" disposableProviderFactory="true"
-      ecorePackage="publicationMIM2025Metamodels.ecore#/"/>
+      ecorePackage="publicationMIM2025Metamodels.ecore#/">
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="publicationMIM2025Metamodels.ecore#//RECPObjective">
+      <genEnumLiterals ecoreEnumLiteral="publicationMIM2025Metamodels.ecore#//RECPObjective/RECP_Method"/>
+      <genEnumLiterals ecoreEnumLiteral="publicationMIM2025Metamodels.ecore#//RECPObjective/RECP_Project"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="publicationMIM2025Metamodels.ecore#//PatternRoleType">
+      <genEnumLiterals ecoreEnumLiteral="publicationMIM2025Metamodels.ecore#//PatternRoleType/NotYetDefined"/>
+      <genEnumLiterals ecoreEnumLiteral="publicationMIM2025Metamodels.ecore#//PatternRoleType/Modelling"/>
+      <genEnumLiterals ecoreEnumLiteral="publicationMIM2025Metamodels.ecore#//PatternRoleType/Evaluation"/>
+      <genEnumLiterals ecoreEnumLiteral="publicationMIM2025Metamodels.ecore#//PatternRoleType/Organisational"/>
+      <genEnumLiterals ecoreEnumLiteral="publicationMIM2025Metamodels.ecore#//PatternRoleType/Technical"/>
+      <genEnumLiterals ecoreEnumLiteral="publicationMIM2025Metamodels.ecore#//PatternRoleType/Validation"/>
+      <genEnumLiterals ecoreEnumLiteral="publicationMIM2025Metamodels.ecore#//PatternRoleType/..."/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="publicationMIM2025Metamodels.ecore#//PatternSecondaryRoleType">
+      <genEnumLiterals ecoreEnumLiteral="publicationMIM2025Metamodels.ecore#//PatternSecondaryRoleType/NotYetDefined"/>
+      <genEnumLiterals ecoreEnumLiteral="publicationMIM2025Metamodels.ecore#//PatternSecondaryRoleType/FunctionalArchitecture"/>
+      <genEnumLiterals ecoreEnumLiteral="publicationMIM2025Metamodels.ecore#//PatternSecondaryRoleType/Requirement"/>
+      <genEnumLiterals ecoreEnumLiteral="publicationMIM2025Metamodels.ecore#//PatternSecondaryRoleType/Usage"/>
+      <genEnumLiterals ecoreEnumLiteral="publicationMIM2025Metamodels.ecore#//PatternSecondaryRoleType/LogicalArchitecture"/>
+      <genEnumLiterals ecoreEnumLiteral="publicationMIM2025Metamodels.ecore#//PatternSecondaryRoleType/PhysicalArchitecture"/>
+      <genEnumLiterals ecoreEnumLiteral="publicationMIM2025Metamodels.ecore#//PatternSecondaryRoleType/Design"/>
+      <genEnumLiterals ecoreEnumLiteral="publicationMIM2025Metamodels.ecore#//PatternSecondaryRoleType/..."/>
+    </genEnums>
+    <genClasses ecoreClass="publicationMIM2025Metamodels.ecore#//ModellingEntity">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference publicationMIM2025Metamodels.ecore#//ModellingEntity/container"/>
+    </genClasses>
+    <genClasses ecoreClass="publicationMIM2025Metamodels.ecore#//Container">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference publicationMIM2025Metamodels.ecore#//Container/contains"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference publicationMIM2025Metamodels.ecore#//Container/upperContainer"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference publicationMIM2025Metamodels.ecore#//Container/subContainers"/>
+    </genClasses>
+    <genClasses ecoreClass="publicationMIM2025Metamodels.ecore#//RECP">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference publicationMIM2025Metamodels.ecore#//RECP/patternsCatalogs"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute publicationMIM2025Metamodels.ecore#//RECP/RECPObjective"/>
+    </genClasses>
+    <genClasses ecoreClass="publicationMIM2025Metamodels.ecore#//PatternsCatalog">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference publicationMIM2025Metamodels.ecore#//PatternsCatalog/recp"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference publicationMIM2025Metamodels.ecore#//PatternsCatalog/patterns"/>
+    </genClasses>
+    <genClasses ecoreClass="publicationMIM2025Metamodels.ecore#//Pattern">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference publicationMIM2025Metamodels.ecore#//Pattern/patternsCatalog"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference publicationMIM2025Metamodels.ecore#//Pattern/problem"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference publicationMIM2025Metamodels.ecore#//Pattern/solutions"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference publicationMIM2025Metamodels.ecore#//Pattern/relatedPatternRelationships"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute publicationMIM2025Metamodels.ecore#//Pattern/primaryRole"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute publicationMIM2025Metamodels.ecore#//Pattern/secondaryRole"/>
+    </genClasses>
+    <genClasses ecoreClass="publicationMIM2025Metamodels.ecore#//Solution">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference publicationMIM2025Metamodels.ecore#//Solution/modelledBy"/>
+    </genClasses>
+    <genClasses ecoreClass="publicationMIM2025Metamodels.ecore#//Problem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference publicationMIM2025Metamodels.ecore#//Problem/problemSolvedBy"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference publicationMIM2025Metamodels.ecore#//Problem/solutions"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference publicationMIM2025Metamodels.ecore#//Problem/modelledBy"/>
+    </genClasses>
+    <genClasses ecoreClass="publicationMIM2025Metamodels.ecore#//Adequation">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference publicationMIM2025Metamodels.ecore#//Adequation/problems"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference publicationMIM2025Metamodels.ecore#//Adequation/solutions"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference publicationMIM2025Metamodels.ecore#//Adequation/isValidInContexts"/>
+    </genClasses>
+    <genClasses ecoreClass="publicationMIM2025Metamodels.ecore#//Context">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference publicationMIM2025Metamodels.ecore#//Context/validsContextOf"/>
+    </genClasses>
+    <genClasses ecoreClass="publicationMIM2025Metamodels.ecore#//PlatformFramework_NamedObject"/>
+    <genClasses ecoreClass="publicationMIM2025Metamodels.ecore#//DigitalEntityModel">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference publicationMIM2025Metamodels.ecore#//DigitalEntityModel/modelsSolutions"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference publicationMIM2025Metamodels.ecore#//DigitalEntityModel/modelsProblems"/>
+    </genClasses>
+    <genClasses ecoreClass="publicationMIM2025Metamodels.ecore#//DigitalTwinEntity">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference publicationMIM2025Metamodels.ecore#//DigitalTwinEntity/digitalTwinSystem"/>
+    </genClasses>
+    <genClasses ecoreClass="publicationMIM2025Metamodels.ecore#//DigitalTwinSystem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference publicationMIM2025Metamodels.ecore#//DigitalTwinSystem/digitalTwinEntity"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference publicationMIM2025Metamodels.ecore#//DigitalTwinSystem/usage"/>
+    </genClasses>
+    <genClasses ecoreClass="publicationMIM2025Metamodels.ecore#//PatternRelationShip">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference publicationMIM2025Metamodels.ecore#//PatternRelationShip/sourcePattern"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference publicationMIM2025Metamodels.ecore#//PatternRelationShip/targetPattern"/>
+    </genClasses>
+    <genClasses ecoreClass="publicationMIM2025Metamodels.ecore#//Usage">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference publicationMIM2025Metamodels.ecore#//Usage/capabilities"/>
+    </genClasses>
+    <genClasses ecoreClass="publicationMIM2025Metamodels.ecore#//FunctionalRequirement">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference publicationMIM2025Metamodels.ecore#//FunctionalRequirement/tobeMetThrough"/>
+    </genClasses>
+    <genClasses ecoreClass="publicationMIM2025Metamodels.ecore#//Capability">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference publicationMIM2025Metamodels.ecore#//Capability/functionalRequirementsToMeet"/>
+    </genClasses>
+    <genClasses ecoreClass="publicationMIM2025Metamodels.ecore#//NewEClass18"/>
+  </genPackages>
 </genmodel:GenModel>
