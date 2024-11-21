@@ -9,7 +9,7 @@
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']"/>
         <target xmi:type="ecore:EPackage" href="publicationMIM2025Metamodels.ecore#/"/>
       </ownedRepresentationDescriptors>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_LpVy0KZSEe-5h6ZUzOOM2g" name="RECPMetamodel" repPath="#_LpUksKZSEe-5h6ZUzOOM2g" changeId="4987a9da-1068-4757-bc56-5513b968b90b">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_LpVy0KZSEe-5h6ZUzOOM2g" name="RECPMetamodel" repPath="#_LpUksKZSEe-5h6ZUzOOM2g" changeId="f199b071-db43-4f99-ac00-e190eba85bb7">
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']"/>
         <target xmi:type="ecore:EPackage" href="publicationMIM2025Metamodels.ecore#/"/>
       </ownedRepresentationDescriptors>
@@ -185,7 +185,7 @@
             <styles xmi:type="notation:FilteringStyle" xmi:id="_4vrzI6Z7Ee-5h6ZUzOOM2g"/>
             <styles xmi:type="notation:FontStyle" xmi:id="_hCvd4KaVEe-5h6ZUzOOM2g"/>
           </children>
-          <styles xmi:type="notation:ShapeStyle" xmi:id="_4vrMEaZ7Ee-5h6ZUzOOM2g" fontName="Segoe UI" fontHeight="8" bold="true"/>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_4vrMEaZ7Ee-5h6ZUzOOM2g" fontName="Segoe UI" fontHeight="8" bold="true" fillColor="9359613"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4vrMEqZ7Ee-5h6ZUzOOM2g" x="954" y="228" width="162" height="153"/>
         </children>
         <children xmi:type="notation:Node" xmi:id="_lDgQgKaIEe-5h6ZUzOOM2g" type="2003" element="_lDcmIKaIEe-5h6ZUzOOM2g">
@@ -1355,10 +1355,12 @@
       <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
       <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
       <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_4vjQQKZ7Ee-5h6ZUzOOM2g" borderSize="1" borderSizeComputationExpression="1" backgroundStyle="Liquid" foregroundColor="255,252,216">
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_4vjQQKZ7Ee-5h6ZUzOOM2g" borderSize="1" borderSizeComputationExpression="1" backgroundStyle="Liquid" backgroundColor="253,208,142" foregroundColor="253,208,142">
         <customFeatures>labelSize</customFeatures>
         <customFeatures>labelFormat</customFeatures>
         <customFeatures>labelColor</customFeatures>
+        <customFeatures>backgroundColor</customFeatures>
+        <customFeatures>foregroundColor</customFeatures>
         <labelFormat>bold</labelFormat>
         <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@style"/>
       </ownedStyle>
