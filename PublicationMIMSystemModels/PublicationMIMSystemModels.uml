@@ -7,11 +7,8 @@
     <importedPackage xmi:type="uml:Package" href="pathmap://SysML16_LIBRARIES/SysML-Standard-Library.uml#SysML.package_packagedElement_Libraries"/>
   </packageImport>
   <packagedElement xmi:type="uml:Package" xmi:id="_GdAREKWzEe-on7-SD3Zezw" name="DTS Patterns ">
-    <packagedElement xmi:type="uml:Package" xmi:id="_VBcK4KWzEe-on7-SD3Zezw" name="Business Patterns">
+    <packagedElement xmi:type="uml:Package" xmi:id="_VBcK4KWzEe-on7-SD3Zezw" name="DTS Business Patterns">
       <packagedElement xmi:type="uml:Dependency" xmi:id="_3ohToKWzEe-on7-SD3Zezw" client="_VBcK4KWzEe-on7-SD3Zezw" supplier="_xc9JQKWzEe-on7-SD3Zezw"/>
-    </packagedElement>
-    <packagedElement xmi:type="uml:Package" xmi:id="_ch2BQKWzEe-on7-SD3Zezw" name="Business Patterns">
-      <packagedElement xmi:type="uml:Dependency" xmi:id="_4Y9SEKWzEe-on7-SD3Zezw" client="_ch2BQKWzEe-on7-SD3Zezw" supplier="_xc9JQKWzEe-on7-SD3Zezw"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_xc9JQKWzEe-on7-SD3Zezw" name="DTS Architectural Patterns">
       <packagedElement xmi:type="uml:Dependency" xmi:id="_OS4ywKW0Ee-on7-SD3Zezw" client="_xc9JQKWzEe-on7-SD3Zezw" supplier="_8OW2UKWzEe-on7-SD3Zezw"/>
@@ -20,46 +17,43 @@
       <packagedElement xmi:type="uml:Dependency" xmi:id="_a2SB4KW0Ee-on7-SD3Zezw" client="_xc9JQKWzEe-on7-SD3Zezw" supplier="_VRvbQKW0Ee-on7-SD3Zezw"/>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_HVcisKW4Ee-on7-SD3Zezw" client="_xc9JQKWzEe-on7-SD3Zezw" supplier="_ITbxwKW0Ee-on7-SD3Zezw"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Package" xmi:id="_Q_sMsKWzEe-on7-SD3Zezw" name="Organisational Patterns">
-      <packagedElement xmi:type="uml:Dependency" xmi:id="_2zfJEKWzEe-on7-SD3Zezw" client="_Q_sMsKWzEe-on7-SD3Zezw" supplier="_xc9JQKWzEe-on7-SD3Zezw"/>
-    </packagedElement>
-    <packagedElement xmi:type="uml:Package" xmi:id="_tlUzkKW3Ee-on7-SD3Zezw" name="Organisational Patterns">
+    <packagedElement xmi:type="uml:Package" xmi:id="_tlUzkKW3Ee-on7-SD3Zezw" name="DTS Organisational Patterns">
       <packagedElement xmi:type="uml:Dependency" xmi:id="_0nG0QKW3Ee-on7-SD3Zezw" client="_tlUzkKW3Ee-on7-SD3Zezw" supplier="_xc9JQKWzEe-on7-SD3Zezw"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Package" xmi:id="_yN79cKW3Ee-on7-SD3Zezw" name="MissionPatterns">
+    <packagedElement xmi:type="uml:Package" xmi:id="_yN79cKW3Ee-on7-SD3Zezw" name="DTS Mission Patterns">
       <packagedElement xmi:type="uml:Dependency" xmi:id="_1E2gMKW3Ee-on7-SD3Zezw" client="_yN79cKW3Ee-on7-SD3Zezw" supplier="_xc9JQKWzEe-on7-SD3Zezw"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_BRrmQKW0Ee-on7-SD3Zezw" name="DTS Engineering Roles Patterns">
-      <packagedElement xmi:type="uml:Dependency" xmi:id="_vtKxMKW0Ee-on7-SD3Zezw" client="_VRvbQKW0Ee-on7-SD3Zezw" supplier="_dvyloKW0Ee-on7-SD3Zezw"/>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_wb11EKW0Ee-on7-SD3Zezw" client="_VRvbQKW0Ee-on7-SD3Zezw" supplier="_jMXjEKW0Ee-on7-SD3Zezw"/>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_w5_wsKW0Ee-on7-SD3Zezw" client="_VRvbQKW0Ee-on7-SD3Zezw" supplier="_mSuQAKW0Ee-on7-SD3Zezw"/>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_y4HDMKW0Ee-on7-SD3Zezw" client="_VRvbQKW0Ee-on7-SD3Zezw" supplier="_tGLg0KW0Ee-on7-SD3Zezw"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_ITbxwKW0Ee-on7-SD3Zezw" name="DTS Process Patterns"/>
-    <packagedElement xmi:type="uml:Package" xmi:id="_8OW2UKWzEe-on7-SD3Zezw" name="Structural Patterns"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_8OW2UKWzEe-on7-SD3Zezw" name="DTS Structural Patterns"/>
     <packagedElement xmi:type="uml:Package" xmi:id="_E6_PQKW0Ee-on7-SD3Zezw" name="DTS Engineering Activity Patterns"/>
-    <packagedElement xmi:type="uml:Package" xmi:id="_VRvbQKW0Ee-on7-SD3Zezw" name="DTS Requirements Patterns"/>
-    <packagedElement xmi:type="uml:Package" xmi:id="_dvyloKW0Ee-on7-SD3Zezw" name="DTS Analysis Patterns"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_VRvbQKW0Ee-on7-SD3Zezw" name="DTS Requirements Patterns">
+      <packagedElement xmi:type="uml:Package" xmi:id="_4tUpAKinEe-on7-SD3Zezw" name="DTS Needs Patterns"/>
+    </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_jMXjEKW0Ee-on7-SD3Zezw" name="DTS Design Patterns">
       <packagedElement xmi:type="uml:Dependency" xmi:id="_FAaFUKW1Ee-on7-SD3Zezw" client="_jMXjEKW0Ee-on7-SD3Zezw" supplier="_4oZm0KW0Ee-on7-SD3Zezw"/>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_Fz9pMKW1Ee-on7-SD3Zezw" client="_jMXjEKW0Ee-on7-SD3Zezw" supplier="_BgS0kKW1Ee-on7-SD3Zezw"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_mSuQAKW0Ee-on7-SD3Zezw" name="Hardware Design Patterns"/>
     <packagedElement xmi:type="uml:Package" xmi:id="_tGLg0KW0Ee-on7-SD3Zezw" name="DTS Test Patterns"/>
-    <packagedElement xmi:type="uml:Package" xmi:id="_BgS0kKW1Ee-on7-SD3Zezw" name="Software Analaysis Patterns"/>
-    <packagedElement xmi:type="uml:Package" xmi:id="_4oZm0KW0Ee-on7-SD3Zezw" name="Software Architecture Patterns">
+    <packagedElement xmi:type="uml:Package" xmi:id="_BgS0kKW1Ee-on7-SD3Zezw" name="DT Analaysis Patterns"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_4oZm0KW0Ee-on7-SD3Zezw" name="DT Architecture Patterns">
       <packagedElement xmi:type="uml:Dependency" xmi:id="_uLnpcKW1Ee-on7-SD3Zezw" client="_4oZm0KW0Ee-on7-SD3Zezw" supplier="_k4xlEKW1Ee-on7-SD3Zezw"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Package" xmi:id="_k4xlEKW1Ee-on7-SD3Zezw" name="Software Requirements Patterns">
+    <packagedElement xmi:type="uml:Package" xmi:id="_k4xlEKW1Ee-on7-SD3Zezw" name="DT Requirements Patterns">
       <packagedElement xmi:type="uml:Dependency" xmi:id="_BJqAwKW2Ee-on7-SD3Zezw" client="_k4xlEKW1Ee-on7-SD3Zezw" supplier="_9r2dIKW1Ee-on7-SD3Zezw"/>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_Mmt58KW2Ee-on7-SD3Zezw" client="_k4xlEKW1Ee-on7-SD3Zezw" supplier="_IZCYkKW2Ee-on7-SD3Zezw"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Package" xmi:id="_IZCYkKW2Ee-on7-SD3Zezw" name="Software Design Patterns">
+    <packagedElement xmi:type="uml:Package" xmi:id="_IZCYkKW2Ee-on7-SD3Zezw" name="DT Design Patterns">
       <packagedElement xmi:type="uml:Dependency" xmi:id="_LtbhgKW2Ee-on7-SD3Zezw" client="_IZCYkKW2Ee-on7-SD3Zezw" supplier="_BySuEKW2Ee-on7-SD3Zezw"/>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_VxRlAKW2Ee-on7-SD3Zezw" client="_IZCYkKW2Ee-on7-SD3Zezw" supplier="_QKBBkKW2Ee-on7-SD3Zezw"/>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_WqRCgKW2Ee-on7-SD3Zezw" client="_IZCYkKW2Ee-on7-SD3Zezw" supplier="_TBtncKW2Ee-on7-SD3Zezw"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Package" xmi:id="_9r2dIKW1Ee-on7-SD3Zezw" name="Software Test Patterns"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_9r2dIKW1Ee-on7-SD3Zezw" name="DT Test Patterns"/>
     <packagedElement xmi:type="uml:Package" xmi:id="_TBtncKW2Ee-on7-SD3Zezw" name="Behavioral Design Patterns"/>
     <packagedElement xmi:type="uml:Package" xmi:id="_QKBBkKW2Ee-on7-SD3Zezw" name="Structural Design Patterns"/>
     <packagedElement xmi:type="uml:Package" xmi:id="_BySuEKW2Ee-on7-SD3Zezw" name="Creational Design Patterns"/>
