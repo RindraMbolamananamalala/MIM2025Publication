@@ -47,6 +47,7 @@
     <packagedElement xmi:type="uml:Package" xmi:id="_k4xlEKW1Ee-on7-SD3Zezw" name="DT Requirements Patterns">
       <packagedElement xmi:type="uml:Dependency" xmi:id="_BJqAwKW2Ee-on7-SD3Zezw" client="_k4xlEKW1Ee-on7-SD3Zezw" supplier="_9r2dIKW1Ee-on7-SD3Zezw"/>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_Mmt58KW2Ee-on7-SD3Zezw" client="_k4xlEKW1Ee-on7-SD3Zezw" supplier="_IZCYkKW2Ee-on7-SD3Zezw"/>
+      <packagedElement xmi:type="uml:Package" xmi:id="_uwVIUK1xEe-lzZuVrlttuw" name="DT Needs Patterns"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_IZCYkKW2Ee-on7-SD3Zezw" name="DT Design Patterns">
       <packagedElement xmi:type="uml:Dependency" xmi:id="_LtbhgKW2Ee-on7-SD3Zezw" client="_IZCYkKW2Ee-on7-SD3Zezw" supplier="_BySuEKW2Ee-on7-SD3Zezw"/>
@@ -54,9 +55,9 @@
       <packagedElement xmi:type="uml:Dependency" xmi:id="_WqRCgKW2Ee-on7-SD3Zezw" client="_IZCYkKW2Ee-on7-SD3Zezw" supplier="_TBtncKW2Ee-on7-SD3Zezw"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_9r2dIKW1Ee-on7-SD3Zezw" name="DT Test Patterns"/>
-    <packagedElement xmi:type="uml:Package" xmi:id="_TBtncKW2Ee-on7-SD3Zezw" name="Behavioral Design Patterns"/>
-    <packagedElement xmi:type="uml:Package" xmi:id="_QKBBkKW2Ee-on7-SD3Zezw" name="Structural Design Patterns"/>
-    <packagedElement xmi:type="uml:Package" xmi:id="_BySuEKW2Ee-on7-SD3Zezw" name="Creational Design Patterns"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_TBtncKW2Ee-on7-SD3Zezw" name="DT Behavioral Design Patterns"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_QKBBkKW2Ee-on7-SD3Zezw" name="DT Structural Design Patterns"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_BySuEKW2Ee-on7-SD3Zezw" name="DT Creational Design Patterns"/>
   </packagedElement>
   <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_9J9DQKWwEe-u1arxw7MlTg">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_9KBUsKWwEe-u1arxw7MlTg" source="http://www.eclipse.org/uml2/2.0.0/UML">
