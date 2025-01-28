@@ -40,7 +40,7 @@
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_mSuQAKW0Ee-on7-SD3Zezw" name="Hardware Design Patterns"/>
     <packagedElement xmi:type="uml:Package" xmi:id="_tGLg0KW0Ee-on7-SD3Zezw" name="DTS Test Patterns"/>
-    <packagedElement xmi:type="uml:Package" xmi:id="_BgS0kKW1Ee-on7-SD3Zezw" name="DT Analaysis Patterns"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_BgS0kKW1Ee-on7-SD3Zezw" name="DT Analysis Patterns"/>
     <packagedElement xmi:type="uml:Package" xmi:id="_4oZm0KW0Ee-on7-SD3Zezw" name="DT Architecture Patterns">
       <packagedElement xmi:type="uml:Dependency" xmi:id="_uLnpcKW1Ee-on7-SD3Zezw" client="_4oZm0KW0Ee-on7-SD3Zezw" supplier="_k4xlEKW1Ee-on7-SD3Zezw"/>
     </packagedElement>
